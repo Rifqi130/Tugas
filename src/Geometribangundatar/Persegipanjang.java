@@ -11,11 +11,11 @@ import javax.swing.JTextField;
 
 public class Persegipanjang implements Bangundatar{
     
-    private double panjang, tinggi;
+    private double panjang, lebar;
 
-    public Persegipanjang(double panjang, double tinggi) {
+    public Persegipanjang(double panjang, double lebar) {
         this.panjang = panjang;
-        this.tinggi = tinggi;
+        this.lebar = lebar;
     }
 
     public double getPanjang() {
@@ -26,12 +26,12 @@ public class Persegipanjang implements Bangundatar{
         this.panjang = panjang;
     }
 
-    public double getTinggi() {
-        return tinggi;
+    public double getLinggi() {
+        return lebar;
     }
 
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
+    public void setLinggi(double lebar) {
+        this.lebar = lebar;
     }
     
     public Persegipanjang(JTextField sisi) {
@@ -41,7 +41,7 @@ public class Persegipanjang implements Bangundatar{
     
     @Override
     public double Luas() {
-        return panjang * tinggi;
+        return panjang * lebar;
     }
     
     

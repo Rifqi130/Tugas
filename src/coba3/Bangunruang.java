@@ -9,5 +9,5 @@ package coba3;
  * @author ASUS ROG
  */
 public interface Bangunruang {
-    
+    public double Volume();
 }

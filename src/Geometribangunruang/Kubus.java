@@ -4,10 +4,32 @@
  */
 package Geometribangunruang;
 
-/**
- *
- * @author ASUS ROG
- */
-public class Kubus {
+import coba3.Bangunruang;
+
+
+public class Kubus implements Bangunruang {
     
+    private double sisi;
+
+    public Kubus(double sisi) {
+        this.sisi = sisi;
+    }
+
+    public double getSisi() {
+        return sisi;
+    }
+
+    public void setSisi(double sisi) {
+        this.sisi = sisi;
+    }
+    
+    
+    public double Voulme() {
+        return Luas * sisi;
+    }
+
+    @Override
+    public double Volume() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

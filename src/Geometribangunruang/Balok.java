@@ -19,12 +19,18 @@ public class Balok extends Persegipanjang implements Bangunruang {
         this.tinggi = new tinggi;
     }
     Persegipanjang bangundatar = new Persegipanjang (tinggi);
-    ikan
+    
 
 
      @Override
     public double Volume() {
         return bangundatar.Luas() * tinggi;
     }
-    
+   
+
+    private static class sout {
+
+        public sout() {
+        }
+    }
 }

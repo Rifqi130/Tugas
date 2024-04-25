@@ -12,11 +12,11 @@ import coba3.Bangunruang;
 public class Balok extends Persegipanjang implements Bangunruang {
 
     private double tinggi;
-    
-    public Balok(double panjang, double lebar, double tinggi) {
+
+    public Balok(double tinggi, double lebar, double panjang) {
         super(panjang,lebar);
-        this.tinggi = new tinggi;
-        }
+        this.tinggi = tinggi;
+    }
 
     public double getTinggi() {
         return tinggi;
@@ -28,7 +28,7 @@ public class Balok extends Persegipanjang implements Bangunruang {
     
     
     
-    Persegipanjang bangundatar = new Persegipanjang (tinggi);
+    Persegipanjang bangundatar = new Persegipanjang (panjang, lebar, tinggi);
     
 
 

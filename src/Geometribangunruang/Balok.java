@@ -19,7 +19,7 @@ public class Balok extends Persegipanjang implements Bangunruang {
         this.tinggi = new tinggi;
     }
     Persegipanjang bangundatar = new Persegipanjang (tinggi);
-    ayam
+    ikan
 
 
      @Override

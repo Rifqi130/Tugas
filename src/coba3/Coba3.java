@@ -11,8 +11,8 @@ import Geometribangunruang.*;
 public class Coba3 {
     
     public static void main(String[] args) {
-        Kubus bangundatar = new Kubus(4);
-        System.out.println(bangundatar.Volume());
+        Persegipanjang bangundatar = new Persegipanjang(4,8);
+        System.out.println(bangundatar.Luas());
         
         System.out.println("Faiz babi");
     }

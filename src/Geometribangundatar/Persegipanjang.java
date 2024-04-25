@@ -7,7 +7,6 @@ package Geometribangundatar;
 
 import coba3.Bangundatar;
 
-import javax.swing.JTextField;
 
 public class Persegipanjang implements Bangundatar{
     
@@ -16,6 +15,10 @@ public class Persegipanjang implements Bangundatar{
     public Persegipanjang(double panjang, double lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
+    }
+
+    public Persegipanjang(double panjang, double lebar, double tinggi) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     public double getPanjang() {
@@ -32,10 +35,6 @@ public class Persegipanjang implements Bangundatar{
 
     public void setLebar(double lebar) {
         this.lebar = lebar;
-    }
-    
-    public Persegipanjang(JTextField sisi) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     

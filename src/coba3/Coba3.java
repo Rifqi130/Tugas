@@ -4,8 +4,8 @@
  */
 package coba3;
 
-import Geometribangundatar.Persegi;
-import Geometribangunruang.Kubus;
+import Geometribangundatar.*;
+import Geometribangunruang.*;
 
 
 public class Coba3 {

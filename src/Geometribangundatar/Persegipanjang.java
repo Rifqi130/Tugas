@@ -26,11 +26,11 @@ public class Persegipanjang implements Bangundatar{
         this.panjang = panjang;
     }
 
-    public double getLinggi() {
+    public double getLebar() {
         return lebar;
     }
 
-    public void setLinggi(double lebar) {
+    public void setLebar(double lebar) {
         this.lebar = lebar;
     }
     

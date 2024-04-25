@@ -10,9 +10,14 @@ import javax.swing.JTextField;
 
 public class Segitiga implements Bangundatar{
     
-    private double alas, tinggi;
+    protected double alas, tinggi;
 
     public Segitiga(double alas, double tinggi) {
+        this.alas = alas;
+        this.tinggi = tinggi;
+    }
+    
+      public Segitiga(double alas, double tinggi, double tlimas) {
         this.alas = alas;
         this.tinggi = tinggi;
     }

@@ -5,13 +5,15 @@
 package coba3;
 
 import Geometribangundatar.Persegi;
+import Geometribangunruang.Kubus;
 
 
 public class Coba3 {
     
     public static void main(String[] args) {
-        Persegi bangundatar = new Persegi(4);
-        System.out.println(bangundatar.Luas());
+        Kubus bangundatar = new Kubus(4);
+        System.out.println(bangundatar.Volume());
+        
         System.out.println("Yedhit cuki");
     }
     

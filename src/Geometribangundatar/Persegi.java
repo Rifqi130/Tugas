@@ -10,7 +10,7 @@ import javax.swing.JTextField;
 
 public class Persegi implements Bangundatar{
     
-    private double sisi;
+    protected double sisi;
 
     public Persegi(double sisi) {
         this.sisi = sisi;

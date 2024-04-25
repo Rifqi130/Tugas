@@ -4,32 +4,22 @@
  */
 package Geometribangunruang;
 
+import Geometribangundatar.Persegi;
 import coba3.Bangunruang;
 
 
-public class Kubus implements Bangunruang {
+public class Kubus extends Persegi implements Bangunruang {
     
-    private double sisi;
-
+    
     public Kubus(double sisi) {
-        this.sisi = sisi;
-    }
-
-    public double getSisi() {
-        return sisi;
-    }
-
-    public void setSisi(double sisi) {
-        this.sisi = sisi;
+        super(sisi);
     }
     
+    Persegi bangundatar = new Persegi(sisi);
     
-    public double Voulme() {
-        return Luas * sisi;
-    }
-
     @Override
     public double Volume() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return bangundatar.Luas() * sisi;
     }
+  
 }

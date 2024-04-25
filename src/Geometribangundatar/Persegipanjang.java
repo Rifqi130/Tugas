@@ -18,7 +18,8 @@ public class Persegipanjang implements Bangundatar{
     }
 
     public Persegipanjang(double panjang, double lebar, double tinggi) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+         this.panjang = panjang;
+         this.lebar = lebar;
     }
 
     public double getPanjang() {

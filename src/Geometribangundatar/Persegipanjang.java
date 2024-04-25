@@ -11,7 +11,7 @@ import javax.swing.JTextField;
 
 public class Persegipanjang implements Bangundatar{
     
-    private double panjang, lebar;
+    protected double panjang, lebar;
 
     public Persegipanjang(double panjang, double lebar) {
         this.panjang = panjang;

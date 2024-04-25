@@ -4,10 +4,26 @@
  */
 package Geometribangunruang;
 
-/**
- *
- * @author ASUS ROG
- */
-public class Balok {
+import Geometribangundatar.Persegipanjang;
+import coba3.Bangunruang;
+
+
+
+public class Balok extends Persegipanjang implements Bangunruang {
+
+    private double tinggi;
+    
+    public Balok(double panjang, double lebar, double tinggi) {
+        super(panjang);
+        super(lebar);
+        this.tinggi = new tinggi;
+    }
+    Persegipanjang bangundatar = new Persegipanjang (tinggi);
+
+
+     @Override
+    public double Volume() {
+        return bangundatar.Luas() * tinggi;
+    }
     
 }

@@ -14,7 +14,7 @@ public class Coba3 {
         Kubus bangundatar = new Kubus(4);
         System.out.println(bangundatar.Volume());
         
-        System.out.println("Faiz cuki");
+        System.out.println("Faiz babi");
     }
     
 }

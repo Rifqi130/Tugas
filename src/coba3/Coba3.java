@@ -12,7 +12,7 @@ public class Coba3 {
     public static void main(String[] args) {
         Persegi bangundatar = new Persegi(4);
         System.out.println(bangundatar.Luas());
-        System.out.println("Malik cuki Ganteng");
+        System.out.println("Yedhit cuki");
     }
     
 }

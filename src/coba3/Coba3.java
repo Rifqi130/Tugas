@@ -11,7 +11,7 @@ import Geometribangunruang.*;
 public class Coba3 {
     
     public static void main(String[] args) {
-        limassegitiga bangundatar = new limassegitiga(3,4,5);
+        prismaSegiempat bangundatar = new prismaSegiempat (6,4,5);
         System.out.println(bangundatar.Volume());
         
         System.out.println("Faiz babi");

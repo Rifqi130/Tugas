@@ -4,19 +4,22 @@
  */
 package Geometribangunruang;
 
-import Geometribangundatar.Segitiga;
+import Geometribangundatar.Persegi;
 import coba3.Bangunruang;
 
 
 
-public class limassegitiga extends Segitiga implements Bangunruang {
+public class limasSegiempat extends Persegi implements Bangunruang {
 
     private double tlimas;
 
-    public limassegitiga(double alas, double tinggi, double tlimas) {
-        super(alas,tinggi);
+
+    public limasSegiempat(double sisi, double tlimas) {
+        super(sisi);
         this.tlimas = tlimas;
     }
+
+   
 
     public double getTlimas() {
         return tlimas;
@@ -25,8 +28,8 @@ public class limassegitiga extends Segitiga implements Bangunruang {
     public void setTlimas(double tlimas) {
         this.tlimas = tlimas;
     }
+
    
-    
      @Override
     public double Volume() {
         return 0.33 * Luas() * tlimas;

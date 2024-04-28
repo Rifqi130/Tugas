@@ -11,7 +11,7 @@ import javax.swing.JTextField;
 
 public class Lingkaran implements Bangundatar{
     
-    private double jari_jari;
+    protected double jari_jari;
 
     public Lingkaran(double jari_jari) {
         this.jari_jari = jari_jari;
@@ -32,7 +32,7 @@ public class Lingkaran implements Bangundatar{
     
     @Override
     public double Luas() {
-        return 0.5 * Math.PI * Math.pow(jari_jari, 2);
+        return Math.PI * Math.pow(jari_jari, 2);
     }
     
 }
